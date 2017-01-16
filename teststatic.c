@@ -8,7 +8,7 @@ int multiply(int x){
 
 int main(){
   int i;
-  for (i=0;i<5;i++){
+  for (i=1;i<5;i++){
     printf("i is %d, multiply returns %d\n", i, multiply(i));
   }
   return 0;
